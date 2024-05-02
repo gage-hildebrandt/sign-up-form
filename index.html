@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src='scripts.js'></script>
     <title>Gage Hildebrandt's sign-up-form></title>
 </head>
 <body>
+    <div class='headers'>
     <h1>Welcome to my sign-up-sheet. My name is Gage and I hope you enjoy your stay.</h1>
     <h2>You can begin signing up below!</h2>
+    </div>
     <form action='/submit' method='post'>
-        <div id='formBox'>
+    <div class='formBox'>
         <label for='firstname'>First Name</label><br>
         <input type='text' name='firstname'><br>
 
@@ -28,7 +32,11 @@
         <label for='confirmPassword'>Confirm Password</label><br>
         <input type='password' name='confirmpassword'><br>
     </form>
-</div>
+    </div>
+
+    <div class='bottomButton'>
     <button id='createAccount'>Create Account</button>
+        <h3>Already have an account? Log in here</h3>
+    </div>
 </body>
 </html>

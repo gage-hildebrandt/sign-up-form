@@ -1,3 +1,29 @@
+body {
+    background-color: grey;
+}
+
+.headers {
+    display: flex; 
+    background-color: white;
+    padding: 100px;
+    
+}
+
 .formBox {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
     align-items: flex-end;
+    
+}
+
+.bottomButton {
+    background-color: white;
+    padding: 40px;
+}
+
+input {
+    display: inline-block; 
+    width: 80px;
+    text-align: right;
 }
