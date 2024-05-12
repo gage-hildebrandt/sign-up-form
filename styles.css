@@ -9,6 +9,8 @@ img {
 }
 
 h1 {
+    display: flex;
+    text-align: left;
     padding-left: 600px;
     font-size: 20px;
     align-content: center;
@@ -20,6 +22,11 @@ h2 {
     font-size: 18px;
 }
 
+.h3 {
+    display: flex;
+    align-content: flex-end;
+}
+
 .headers {
     display: flex; 
     background-color: whitesmoke;
@@ -27,12 +34,17 @@ h2 {
     
 }
 
-.formBox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    
+.container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+    margin-right: 650px;
+    grid-gap: 20px;
+}
+
+.ite {
+    margin-bottom: 30px
 }
 
 .bottomButton {
